@@ -1,0 +1,145 @@
+body {
+  background-image: url("../images/pattern-background-desktop.svg"), url("images/pattern-background-mobile.svg");
+  text-align: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.order-body
+{
+
+  max-width: 30%;
+  height: auto;
+  padding-bottom: 20px;
+  margin: auto;
+  border: none;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+.top-banner img {
+  display: block;
+  border: none;
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5625rem;
+  font-family: sans-serif;
+}
+
+.subtitle {
+  width: 75%;
+  margin: 20px auto;
+  font-family: sans-serif;
+  color: #334257;
+  font-weight: lighter;
+  font-size: 0.9375rem
+}
+
+.membership-info {
+  max-width: 68%;
+  margin: auto;
+  padding: 20px;
+  background-color: hsl(225, 100%, 98%);
+  height: auto;
+  text-align: left;
+  position: relative;
+}
+.membership-icon img {
+  float: left;
+  width: 50px;
+  max-width: 100%;
+  height: auto;
+  margin: auto 20px auto 5px;
+}
+h3 {
+  display: inline-block;
+  margin: 5px 5px;
+  font-size: 100%;
+  font-family: sans-serif;
+  max-width: 30%;
+
+}
+.Plan-details p {
+  display: inline-block;
+  margin: 5px 5px;
+  font-size: 100%;
+  font-family: sans-serif;
+  max-width: 30%;
+  font-weight: lighter;
+}
+
+.membership-info a {
+  margin: auto;
+  position: absolute;
+  right: 20px;
+  top: 34px;
+  font-family: sans-serif;
+  font-size: 100%;
+  max-width: 30%;
+}
+.Plan-header {
+  display: block;
+}
+.procced-Payment-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 3px;
+   line-height: 3px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 279px;
+   font-size: 19px;
+   font-weight: 100;
+   padding: 25px;
+   background-color: hsl(245, 75%, 52%);
+   -webkit-box-shadow: 0 4px 11px 0 #000000;
+   -moz-box-shadow: 0 4px 11px 0 #000000;
+   box-shadow: 0 4px 11px 0 #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 30px auto;
+}
+
+.procced-Payment-button:hover {
+   background: hsl(223, 47%, 23%);
+   border: solid hsl(223, 47%, 23%) 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.Cancel-order-button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 11px;
+   line-height: 11px;
+   color: hsl(224, 23%, 55%);
+   font-family: Arial;
+   width: 259px;
+   font-size: 19px;
+   font-weight: lighter;
+   padding: 16px;
+   background-color:  hsl(225, 100%, 98%);
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.Cancel-order-button:hover {
+   background:  hsl(225, 100%, 98%);
+   text-decoration: none;
+   color: black;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
